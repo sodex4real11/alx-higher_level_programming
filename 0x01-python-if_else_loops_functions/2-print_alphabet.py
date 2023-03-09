@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for a in range(ord('a'), ord('z') + 1):
-    print("{:s}".format(char(a)), end="")
+for letter in range(97, 123):
+    print("{:c}".format(letter), end="")
